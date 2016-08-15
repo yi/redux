@@ -14,9 +14,10 @@ function render() {
       onIncrement={() => store.dispatch({ type: 'INCREMENT' })}
       onDecrement={() => store.dispatch({ type: 'DECREMENT' })}
     />,
-    rootEl  
+    rootEl
   )
 }
 
 render()
 store.subscribe(render)
+

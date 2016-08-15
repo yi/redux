@@ -10,12 +10,14 @@ export function set(value) {
 }
 
 export function increment() {
+  debugger
   return {
     type: INCREMENT_COUNTER
   }
 }
 
 export function decrement() {
+  debugger
   return {
     type: DECREMENT_COUNTER
   }

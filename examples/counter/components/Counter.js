@@ -21,7 +21,7 @@ class Counter extends Component {
     const { value, onIncrement, onDecrement } = this.props
     return (
       <p>
-        Clicked: {value} times
+        按这里: {value} times
         {' '}
         <button onClick={onIncrement}>
           +
@@ -50,3 +50,5 @@ Counter.propTypes = {
 }
 
 export default Counter
+
+

@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react'
 
 class Counter extends Component {
   render() {
+    /* this.props 是从父级 App 传递下来的。通过 react-redux 绑定过的 dispatcher*/
     const { increment, incrementIfOdd, incrementAsync, decrement, counter } = this.props
     return (
       <p>
